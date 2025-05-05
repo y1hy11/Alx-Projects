@@ -48,7 +48,7 @@ This repository is maintained as part of the ALX Frontend Program.
 
 ## ✍️ Author
 
-Y1HY11
+### Y1HY11
 
 - [![X](https://img.shields.io/badge/-black?style=for-the-badge&logo=X&logoColor=white)](https://x.com/y1hy1_1)
 - ALX FE Program Student, Cohort 5
