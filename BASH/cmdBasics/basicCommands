@@ -21,26 +21,18 @@
 
 ## Examples
 
-```cmd
-:: See what files you have
-dir
+### What these commands do
 
-:: Make a new folder
-md MyFolder
+- `dir || ls`: Shows you all the files in your current location
 
-:: Make a copy of a file
-copy MyFile.txt MyCopy.txt
+- `md || mkdir MyFolder`: Creates a new folder (like creating a new folder in File Explorer'for Windows')
 
-:: Rename a file
-move OldName.txt NewName.txt
+- `type nul > || touch myFile.txt`: Creates a new empty file (like create a new file in File Explorer'for Windows')
 
-:: Delete a file you don't want
-del Unwanted.txt
-```
+- `copy MyFile.txt || cp MyCopy.txt`: Makes a duplicate of your file (just like copy & paste)
 
-What these commands do:
-- `dir`: Shows you all the files in your current location
-- `md MyFolder`: Creates a new folder (like creating a new folder in Windows Explorer)
-- `copy MyFile.txt MyCopy.txt`: Makes a duplicate of your file (just like copy & paste)
-- `move OldName.txt NewName.txt`: Gives your file a new name
-- `del Unwanted.txt`: Throws away a file you don't need anymore
+- `move || mv OldName.txt NewName.txt`: Gives your file a new name
+
+- `del || rm Unwanted.txt`: Throws away a file you don't need anymore
+
+
