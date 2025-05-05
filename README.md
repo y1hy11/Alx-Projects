@@ -50,5 +50,9 @@ This repository is maintained as part of the ALX Frontend Program.
 
 ### Y1HY11
 
-- [![X](https://img.shields.io/badge/-black?style=for-the-badge&logo=X&logoColor=white)](https://x.com/y1hy1_1)
-- ALX FE Program Student, Cohort 5
+ ALX FE Program Student, Cohort 5
+  
+[![X](https://img.shields.io/badge/Githhub-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Y1hy11)
+[![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=X&logoColor=white)](https://X.com/Y1HY1_1)
+[![X](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logoColor=white)](https://y1hy11.github.io/)
+
