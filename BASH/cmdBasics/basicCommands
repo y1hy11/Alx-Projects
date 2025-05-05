@@ -1,0 +1,46 @@
+# Basic CMD Commands
+
+## Navigation Commands
+
+| Shell Command | Windows Command    | Description             |
+| ------------- | ------------------ | ----------------------- |
+| `pwd`         | `cd`               | Show current directory  |
+| `ls`          | `dir`              | List directory contents |
+| `clear`       | `cls`              | Clear screen            |
+| `cd ~`        | `cd %F*I*L*E%`     | Go to home directory    |
+
+## File Operations
+
+| Shell Command | Windows Command | Description       |
+| ------------- | --------------- | ----------------- |
+| `cp`          | `copy`          | Copy files        |
+| `mv`          | `move`          | Move/rename files |
+| `rm`          | `del`           | Delete files      |
+| `mkdir`       | `md`            | Create directory  |
+| `touch`       | `type nul >`    | Create empty file |
+
+## Examples
+
+```cmd
+:: See what files you have
+dir
+
+:: Make a new folder
+md MyFolder
+
+:: Make a copy of a file
+copy MyFile.txt MyCopy.txt
+
+:: Rename a file
+move OldName.txt NewName.txt
+
+:: Delete a file you don't want
+del Unwanted.txt
+```
+
+What these commands do:
+- `dir`: Shows you all the files in your current location
+- `md MyFolder`: Creates a new folder (like creating a new folder in Windows Explorer)
+- `copy MyFile.txt MyCopy.txt`: Makes a duplicate of your file (just like copy & paste)
+- `move OldName.txt NewName.txt`: Gives your file a new name
+- `del Unwanted.txt`: Throws away a file you don't need anymore
