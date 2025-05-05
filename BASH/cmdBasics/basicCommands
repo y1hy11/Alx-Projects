@@ -7,7 +7,7 @@
 | `pwd`         | `cd`               | Show current directory  |
 | `ls`          | `dir`              | List directory contents |
 | `clear`       | `cls`              | Clear screen            |
-| `cd ~`        | `cd %F*I*L*E%`     | Go to home directory    |
+| `cd ~`        | `cd %UserPorfile%` | Go to home directory    |
 
 ## File Operations
 
@@ -23,7 +23,13 @@
 
 ### What these commands do
 
-- `dir || ls`: Shows you all the files in your current location
+- `cd || pwd`: Shows you where you are in the file system (like the address bar in File Explorer'for Windows')
+
+- `dir || ls`: Lists the files and folders in your current directory (like the contents of a folder in File Explorer'for Windows')
+
+- `cls || clear`: Clears the screen (like pressing F5 in File Explorer'for Windows')
+
+- `cd ~ || cd %UserPorfile%`: Takes you to your home directory (like going to your user folder in File Explorer'for Windows')
 
 - `md || mkdir MyFolder`: Creates a new folder (like creating a new folder in File Explorer'for Windows')
 
@@ -31,8 +37,6 @@
 
 - `copy MyFile.txt || cp MyCopy.txt`: Makes a duplicate of your file (just like copy & paste)
 
-- `move || mv OldName.txt NewName.txt`: Gives your file a new name
+- `move || mv OldName.txt NewName.txt`: Renames or moves a file (like renaming a file in File Explorer'for Windows')
 
-- `del || rm Unwanted.txt`: Throws away a file you don't need anymore
-
-
+- `del || rm Unwanted.txt`: Deletes a file (like deleting a file in File Explorer'for Windows')
