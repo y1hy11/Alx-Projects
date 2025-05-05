@@ -48,7 +48,8 @@ This repository is maintained as part of the ALX Frontend Program.
 
 ## ✍️ Author
 
-Y1HY11
+### Y1HY11
 
-- GitHub: [https://github.com/y1hy11]
-- ALX FE Program Student, Cohort 5
+ ALX FE Program Student, Cohort 5
+  
+[![X](https://img.shields.io/badge/Githhub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Y1hy11)
