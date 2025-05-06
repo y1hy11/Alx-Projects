@@ -8,6 +8,9 @@
 | `ls`          | `dir`              | List directory contents |
 | `clear`       | `cls`              | Clear screen            |
 | `cd ~`        | `cd %UserPorfile%` | Go to home directory    |
+| `cd -`        | `cd -`             | Go back to previous dir |
+| `cd /`        | `cd \`             | Go to root directory    |
+| `cd <path>`   | `cd <path>`        | Go to specific directory|
 
 ## File Operations
 
@@ -18,6 +21,10 @@
 | `rm`          | `del`           | Delete files      |
 | `mkdir`       | `md`            | Create directory  |
 | `touch`       | `type nul >`    | Create empty file |
+| `cat`         | `type`          | Display file      |
+| `echo`        | `echo`          | Print text        |
+| `find`        | `findstr`       | Search text       |
+
 
 ## Examples
 
@@ -40,3 +47,15 @@
 - `move || mv OldName.txt NewName.txt`: Renames or moves a file (like renaming a file in File Explorer'for Windows')
 
 - `del || rm Unwanted.txt`: Deletes a file (like deleting a file in File Explorer'for Windows')
+
+- `type MyFile.txt || cat MyFile.txt`: Shows you the contents of a file (like opening a file in Notepad'for Windows')
+
+- `echo Hello || echo Hello`: Prints text to the screen (like typing in Notepad'for Windows')
+
+- `findstr Hello || find Hello`: Searches for text in a file (like using the search bar in Notepad'for Windows')
+
+- `cd -`: Takes you back to the last directory you were in (like going back in File Explorer'for Windows')
+
+- `cd / || cd \`: Takes you to the root directory (like going to the top level of your files in File Explorer'for Windows')
+
+- `cd <path>`: Takes you to a specific directory (like clicking on a folder in File Explorer'for Windows')
