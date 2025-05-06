@@ -46,6 +46,8 @@
 
 - `move || mv OldName.txt NewName.txt`: Renames or moves a file (like renaming a file in File Explorer'for Windows')
 
+- `move "C:\NewFolder" || mv MyFile.txt "/home/NewFolder"`: Moves a file to a different folder (like dragging and dropping a file in File Explorer'for Windows')
+
 - `del || rm Unwanted.txt`: Deletes a file (like deleting a file in File Explorer'for Windows')
 
 - `type MyFile.txt || cat MyFile.txt`: Shows you the contents of a file (like opening a file in Notepad'for Windows')
