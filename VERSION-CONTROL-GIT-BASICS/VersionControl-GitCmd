@@ -11,7 +11,7 @@ Version control is a system that records changes to files over time so that you 
 - **Branch**: A separate line of development in your project.
 - **Merge**: Combining changes from different branches.
 
-## Basic Commands
+## Git Commands
 
 1. **git init**: Initialize a new Git repository.
 
@@ -72,6 +72,55 @@ Version control is a system that records changes to files over time so that you 
     ```bash
     # Merge feature into current branch
     git merge feature
+    ```
+
+10. **git push**: Upload local changes to a remote repository.
+
+    ```bash
+    # Push changes to the remote repository
+    git push origin main
+    ```
+
+11. **git pull**: Fetch and merge changes from the remote repository.
+
+    ```bash
+    # Pull changes from the remote repository
+    git pull origin main
+    ```
+
+12. **git reset**: Undo changes.
+
+    ```bash
+    # Unstaged changes
+    git reset
+    # Uncommitted changes
+    git reset --soft HEAD~1
+    # Discard all changes
+    git reset --hard HEAD~1
+    ```
+
+13. **git stash**: Temporarily save changes.
+
+    ```bash
+    # Stash current changes
+    git stash
+    # Apply stashed changes
+    git stash apply
+    ```
+
+14. **git remote**: Manage remote repositories.
+
+    ```bash
+    # Add a new remote repository
+    git remote add origin https://github.com/user/repo.git
+    ```
+
+15. **git config**: Configure Git settings.
+
+    ```bash
+    # Set user name and email
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
     ```
 
 ## Conclusion
