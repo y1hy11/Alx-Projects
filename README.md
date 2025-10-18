@@ -20,27 +20,6 @@ Located in `BASH/`, you'll find:
 - Common terminal operations
 - Practical examples
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/y1hy11/Alx-Projects.git
-   ```
-
-2. Navigate to specific topics:
-
-   ```bash
-   cd Alx-Projects/BASH/
-   ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-
-- Submit issues
-- Propose new features
-- Create pull requests
 
 ## 📝 License
 
