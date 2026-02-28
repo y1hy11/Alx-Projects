@@ -1,4 +1,4 @@
-# Basic CMD Commands
+# CMD Commands
 
 ## Navigation Commands
 
