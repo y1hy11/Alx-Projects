@@ -53,13 +53,6 @@ Located in `CSS/`, you'll find:
 - Flexbox and Grid examples
 - Responsive design patterns and animations
 
-### HTML-CSS-JS
-
-Located in `HTML-CSS-JS/`, you'll find:
-
-- Combined projects demonstrating interactions between HTML, CSS, and JavaScript
-- Small apps, UI demos, and integration examples
-
 ### JS
 
 Located in `JS/`, you'll find:
