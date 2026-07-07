@@ -48,18 +48,8 @@ Located in `CSS/`, you'll find:
 
 - General CSS examples and utilities
 - Component styles and layout patterns
-
-### css_basic
-
-Located in `css_basic/`, you'll find:
-
 - Introductory CSS lessons
 - Simple layouts and fundamentals
-
-### css_advanced
-
-Located in `css_advanced/`, you'll find:
-
 - Flexbox and Grid examples
 - Responsive design patterns and animations
 
@@ -84,12 +74,14 @@ Located in `VERSION-CONTROL-GIT-BASICS/`, you'll find:
 - Git fundamentals and workflows
 - Branching, commits, remotes, and common commands
 
-### headphones
+### React
 
-Located in `headphones/`, you'll find:
+Located in `React/`, you'll find:
 
-- Project assets and UI/design mockups
-- Small demo or prototype files
+- React component examples
+- State management, hooks, and routing
+- Small React applications and demos
+- Project structure and best practices
 
 ## 📝 License
 
